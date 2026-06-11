@@ -1,0 +1,9 @@
+# 在本地任意目录
+mkdir q-nexus && cd q-nexus
+echo "# Q-NEXUS" > README.md
+git init
+git add .
+git commit -m "init: Q-NEXUS repo created via CLI"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/q-nexus.git
+git push -u origin main
